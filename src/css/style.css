@@ -1,20 +1,15 @@
-body, html {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.welcome-to-feed-the-kittens,
+.welcome-to-feed-the-kittens  {
+  box-sizing: border-box;
 }
-
-.background {
-	width: 1280px;
-	height: 832px;
-	background-image: url('AdobeStock_164991966 (1).jpeg'); /* Image you provided */
-	background-size: cover;
-	background-position: center;
+.welcome-to-feed-the-kittens {
+  color: #000000;
+  text-align: right;
+  font-family: "AreYouSerious-Regular", sans-serif;
+  font-size: 8rem;
+  font-weight: 400;
+  position: relative;
+  height: 18.4375rem;
 }
 
 /*
