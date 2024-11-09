@@ -1,64 +1,130 @@
-
-background-image:url('images/AdobeStock_164991966 (1).jpeg.'),
-.welcome-to-feed-the-kittens,
-.welcome-to-feed-the-kittens * {
+/* General Reset for Box Sizing */
+.welcome-page,
+.welcome-page * {
   box-sizing: border-box;
 }
 
-/* Welcome heading styling */
+/* Welcome Page Styling */
+.welcome-page {
+  height: 52rem;
+  position: relative;
+  box-shadow: inset 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  backdrop-filter: blur(0.125rem);
+}
+
+/* Group Element Styling */
+.group-6 {
+  position: absolute;
+  inset: 0;
+}
+
+/* Paper Background Styling */
+.paper {
+  background: var(--final-background, #f0f0f0); /* Default fallback color */
+  color: darkgrey;
+  width: 80rem;
+  height: 52rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* Text and Typography Styling */
+.text {
+  color: #000;
+  text-align: left;
+  font-family: 'Are You Serious', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+  position: absolute;
+  left: 16.1875rem;
+  top: 7.1875rem;
+}
+
+/* Welcome Title Styling */
 .welcome-to-feed-the-kittens {
-  color: #000000;
+  color: #000;
   text-align: right;
-  font-family: "Are You Serious", cursive;
+  font-family: 'Are You Serious', sans-serif;
   font-size: 8rem;
   font-weight: 400;
-  position: relative;
+  position: absolute;
+  left: 28.5rem;
+  top: 3.375rem;
+  width: 46.625rem;
   height: 18.4375rem;
 }
 
-/* Setting box-sizing for the click-to-start text */
-.click-the-button-to-start,
-.click-the-button-to-start * {
-  box-sizing: border-box;
-}
-
-/* Click-to-start text styling */
+/* Subtitle Styling */
 .click-the-button-to-start {
-  color: #000000;
-  text-align: right;
-  font-family: "Are You Serious", cursive;
+  color: #000;
+  text-align: left;
+  font-family: 'Are You Serious', sans-serif;
   font-size: 2.25rem;
   font-weight: 400;
-  position: relative;
+  position: absolute;
+  left: 50.25rem;
+  top: 35.4375rem;
 }
 
-/* Image styling for the specific screenshot */
-.screenshot-2024-10-23-at-7-01-55-pm-4,
-.screenshot-2024-10-23-at-7-01-55-pm-4 * {
-  box-sizing: border-box;
-}
+/* Vector Image Styling */
+/* Vector Image Styling */
+/* Vector Image Styling */
+.vector {
+	width: 36.05%;
+	height: 54.45%;
+	position: absolute;
+	right: 50.34%;
+	left: 25
+	.61%;
+	bottom: 20.2%;
+	top: 42.6875rem;  /* Position the vector below the subtitle */
+	transform: translateY(-3.875rem);
+	overflow: visible;
+ }
 
+
+
+/* Screenshot Styling */
+div { background-image: url("");}
 .screenshot-2024-10-23-at-7-01-55-pm-4 {
+  width: 26.4375rem;
   height: 27.5625rem;
-  position: relative;
+  position: absolute;
+  left: 2.0625rem;
+  top: 13.1875rem;
   object-fit: cover;
 }
 
-/* Image styling for kitten with no background */
-.kit-no-background-1,
-.kit-no-background-1 * {
-  box-sizing: border-box;
-}
-
+/* Kitten Image Styling */
 .kit-no-background-1 {
+  width: 30.375rem;
   height: 40.125rem;
-  position: relative;
+  position: absolute;
+  left: 13.3125rem;
+  top: 6.875rem;
   object-fit: cover;
 }
-.vector,
-.vector * {
-  box-sizing: border-box;
-	height: 4.23625rem;
-  position: right;
+
+/* Group Styling */
+.group {
+  position: absolute;
+  left: 54.5rem;
+  top: 34.5rem;
+  overflow: visible;
+  height: auto;
+}
+
+/* Group 21 Styling */
+.group-21 {
+  width: 97.41%;
+  height: 57.95%;
+  position: absolute;
+  right: 1.81%;
+  left: 0.78%;
+  bottom: 41.69%;
+  top: 0.36%;
   overflow: visible;
 }
