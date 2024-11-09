@@ -1,0 +1,13 @@
+/ProjectName
+│
+├── /assets         # For images, fonts, and other media files
+├── /css            # For CSS files
+│   └── styles.css  # Main stylesheet
+├── /js             # For JavaScript files
+│   └── script.js   # Main JavaScript file
+├── /pages          # For additional HTML pages
+│   └── index.html  # Example of additional page
+│   └── index2.html 
+├── index.html      # Main HTML file (home page)
+└── README.md       # Project documentation (optional but recommended)
+
