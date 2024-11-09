@@ -1,18 +1,5 @@
 
-body {
-	background-image: url('images/AdobeStock_164991966 (1).jpeg');
-	background-size: cover; /* Scales the image to cover the entire background */
-	background-repeat: no-repeat; /* Prevents the image from repeating */
-	background-position: center; /* Centers the image */
- }
-
- body {
-	background-image: url('images/AdobeStock_164991966 (1).jpeg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
- }
-
+background-image:url('images/AdobeStock_164991966 (1).jpeg.'),
 .welcome-to-feed-the-kittens,
 .welcome-to-feed-the-kittens * {
   box-sizing: border-box;
@@ -38,7 +25,7 @@ body {
 /* Click-to-start text styling */
 .click-the-button-to-start {
   color: #000000;
-  text-align: left;
+  text-align: right;
   font-family: "Are You Serious", cursive;
   font-size: 2.25rem;
   font-weight: 400;
@@ -67,4 +54,11 @@ body {
   height: 40.125rem;
   position: relative;
   object-fit: cover;
+}
+.vector,
+.vector * {
+  box-sizing: border-box;
+	height: 4.23625rem;
+  position: right;
+  overflow: visible;
 }
