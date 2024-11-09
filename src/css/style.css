@@ -1,13 +1,20 @@
-/*
-CSS controls the styling of the page.
-You can write a color in directly, or use variables.
-Try changing the color from blue to red in the
-primary color variable below.
-*/
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-:root {
-	--color-primary: blue;
-	--color-secondary: #c00;
+.background {
+	width: 1280px;
+	height: 832px;
+	background-image: url('AdobeStock_164991966 (1).jpeg'); /* Image you provided */
+	background-size: cover;
+	background-position: center;
 }
 
 /*
