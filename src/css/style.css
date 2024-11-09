@@ -1,48 +1,70 @@
 
+body {
+	background-image: url('images/AdobeStock_164991966 (1).jpeg');
+	background-size: cover; /* Scales the image to cover the entire background */
+	background-repeat: no-repeat; /* Prevents the image from repeating */
+	background-position: center; /* Centers the image */
+ }
+
+ body {
+	background-image: url('images/AdobeStock_164991966 (1).jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+ }
+
 .welcome-to-feed-the-kittens,
-.welcome-to-feed-the-kittens  {
+.welcome-to-feed-the-kittens * {
   box-sizing: border-box;
 }
+
+/* Welcome heading styling */
 .welcome-to-feed-the-kittens {
   color: #000000;
   text-align: right;
-  font-family: "AreYouSerious-Regular", sans-serif;
+  font-family: "Are You Serious", cursive;
   font-size: 8rem;
   font-weight: 400;
   position: relative;
   height: 18.4375rem;
 }
 
-
+/* Setting box-sizing for the click-to-start text */
 .click-the-button-to-start,
 .click-the-button-to-start * {
   box-sizing: border-box;
 }
+
+/* Click-to-start text styling */
 .click-the-button-to-start {
   color: #000000;
   text-align: left;
-  font-family: "AreYouSerious-Regular", sans-serif;
+  font-family: "Are You Serious", cursive;
   font-size: 2.25rem;
   font-weight: 400;
   position: relative;
 }
 
+/* Image styling for the specific screenshot */
 .screenshot-2024-10-23-at-7-01-55-pm-4,
 .screenshot-2024-10-23-at-7-01-55-pm-4 * {
   box-sizing: border-box;
 }
+
 .screenshot-2024-10-23-at-7-01-55-pm-4 {
   height: 27.5625rem;
   position: relative;
   object-fit: cover;
 }
+
+/* Image styling for kitten with no background */
 .kit-no-background-1,
 .kit-no-background-1 * {
   box-sizing: border-box;
 }
+
 .kit-no-background-1 {
   height: 40.125rem;
   position: relative;
   object-fit: cover;
 }
-
