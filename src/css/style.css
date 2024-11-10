@@ -7,7 +7,7 @@
 /* Welcome Page Styling */
 .welcome-page {
   height: 52rem;
-  position: relative;
+  position:absolute;
   box-shadow: inset 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   overflow: hidden;
   backdrop-filter: blur(0.125rem);
@@ -17,18 +17,6 @@
 .group-6 {
   position: absolute;
   inset: 0;
-}
-
-/* Paper Background Styling */
-.paper {
-  background: var(--final-background, #f0f0f0); /* Default fallback color */
-  color: darkgrey;
-  width: 80rem;
-  height: 52rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
 }
 
 /* Text and Typography Styling */
@@ -48,11 +36,11 @@
   color: #000;
   text-align: right;
   font-family: 'Are You Serious', sans-serif;
-  font-size: 8rem;
-  font-weight: 400;
+  font-size: 7rem;
+  font-weight: 300;
   position: absolute;
-  left: 28.5rem;
-  top: 3.375rem;
+  left: 25.5rem;
+  top: 5.375rem;
   width: 46.625rem;
   height: 18.4375rem;
 }
@@ -62,11 +50,11 @@
   color: #000;
   text-align: left;
   font-family: 'Are You Serious', sans-serif;
-  font-size: 2.25rem;
+  font-size: 3.25rem;
   font-weight: 400;
   position: absolute;
-  left: 50.25rem;
-  top: 35.4375rem;
+  left: 45.25rem;
+  top: 38.4375rem;
 }
 
 /* Vector Image Styling */
@@ -76,11 +64,10 @@
 	width: 36.05%;
 	height: 54.45%;
 	position: absolute;
-	right: 50.34%;
-	left: 25
-	.61%;
-	bottom: 20.2%;
-	top: 42.6875rem;  /* Position the vector below the subtitle */
+	right: 55.34%;
+	left: 58%;
+	bottom:55%;
+	top: 24.6875rem;  /* Position the vector below the subtitle */
 	transform: translateY(-3.875rem);
 	overflow: visible;
  }
@@ -92,9 +79,9 @@ div { background-image: url("");}
 .screenshot-2024-10-23-at-7-01-55-pm-4 {
   width: 26.4375rem;
   height: 27.5625rem;
-  position: absolute;
+  position:relative;
   left: 2.0625rem;
-  top: 13.1875rem;
+  top: 30.1875rem;
   object-fit: cover;
 }
 
@@ -104,27 +91,35 @@ div { background-image: url("");}
   height: 40.125rem;
   position: absolute;
   left: 13.3125rem;
-  top: 6.875rem;
+  top: 30.875rem;
   object-fit: cover;
 }
 
 /* Group Styling */
-.group {
-  position: absolute;
-  left: 54.5rem;
-  top: 34.5rem;
+.crown,
+.crown * {
+  box-sizing: border-box;
+}
+.vector2 {
+  width: 10.5rem;
+  height: .875rem;
+  position: relative;
+  right: 1.81%;
+  left: 0.78%;
+  bottom: 10.69%;
+  top: 20.36%;
   overflow: visible;
-  height: auto;
+
 }
 
 /* Group 21 Styling */
 .group-21 {
-  width: 97.41%;
-  height: 57.95%;
+  width: 95.41%;
+  height: 50.95%;
   position: absolute;
   right: 1.81%;
   left: 0.78%;
-  bottom: 41.69%;
-  top: 0.36%;
-  overflow: visible;
+  bottom: 42.69%;
+  top: 20.36%;
+  overflow: invisible;
 }
