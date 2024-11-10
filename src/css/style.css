@@ -76,7 +76,7 @@
 
 /* Screenshot Styling */
 div { background-image: url("");}
-.screenshot-2024-10-23-at-7-01-55-pm-4 {
+.jeffery {
   width: 26.4375rem;
   height: 27.5625rem;
   position:relative;
@@ -86,13 +86,11 @@ div { background-image: url("");}
 }
 
 /* Kitten Image Styling */
-.kit-no-background-1 {
-  width: 30.375rem;
-  height: 40.125rem;
-  position: absolute;
-  left: 13.3125rem;
-  top: 30.875rem;
-  object-fit: cover;
+.kiten  {
+	width: 486px;
+	height: 642px;
+	flex-shrink: 0;
+	background: url(<path-to-image>) lightgray 50% / cover no-repeat; 
 }
 
 /* Group Styling */
