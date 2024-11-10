@@ -2,129 +2,150 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
+
 
 /* Background Image Styling */
 .paper{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -9; /* Ensure it's behind all other content */
-  overflow: hidden;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -9; /* Ensure it's behind all other content */
+ overflow: hidden;
 }
 
+
 .paper {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Prevent stretching */
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Prevent stretching */
 }
+
 
 /* Welcome Page Styling */
 .welcome-page {
-  height: 52rem;
-  position: relative; /* Ensure stacking context */
-  box-shadow: inset 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  backdrop-filter: blur(0.125rem);
+ height: 52rem;
+ position: relative; /* Ensure stacking context */
+ box-shadow: inset 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+ overflow: hidden;
+ backdrop-filter: blur(0.125rem);
+}
+
+
+/* Group Element Styling */
+.group-6 {
+ position: relative;
+ inset: 0;
 }
 
 
 /* Text and Typography Styling */
 .text {
-  color: #000;
-  text-align: left;
-  font-family: 'Are You Serious', sans-serif;
-  font-size: 4rem;
-  font-weight: 400;
-  position: absolute;
-  left: 16.1875rem;
-  top: 7.1875rem;
+ color: #000;
+ text-align: left;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 4rem;
+ font-weight: 400;
+ position: absolute;
+ left: 16.1875rem;
+ top: 7.1875rem;
 }
+
 
 .welcome-to-feed-the-kittens {
-  color: #000;
-  text-align: right;
-  font-family: 'Are You Serious', sans-serif;
-  font-size: 7rem;
-  font-weight: 300;
-  position: absolute;
-  left: 25.5rem;
-  top: 5.375rem;
-  width: 46.625rem;
-  height: 18.4375rem;
+ color: #000;
+ text-align: right;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 7rem;
+ font-weight: 300;
+ position: absolute;
+ left: 25.5rem;
+ top: 5.375rem;
+ width: 46.625rem;
+ height: 18.4375rem;
 }
 
+
 .click-the-button-to-start {
-  color: #000;
-  text-align: left;
-  font-family: 'Are You Serious', sans-serif;
-  font-size: 3.25rem;
-  font-weight: 400;
-  position: absolute;
-  left: 45.25rem;
-  top: 38.4375rem;
+ color: #000;
+ text-align: left;
+ font-family: 'Are You Serious', sans-serif;
+ font-size: 3.25rem;
+ font-weight: 400;
+ position: absolute;
+ left: 45.25rem;
+ top: 38.4375rem;
 }
+
 
 /* Vector Image Styling */
 .start-arrow {
-  width: 36.05%;
-  height: 54.45%;
-  position: absolute;
-  right: 55.34%;
-  left: 58%;
-  bottom: 55%;
-  top: 24.6875rem; /* Position the vector below the subtitle */
-  transform: translateY(-3.875rem);
-  overflow: visible;
+ width: 36.05%;
+ height: 54.45%;
+ position: absolute;
+ right: 55.34%;
+ left: 58%;
+ bottom: 55%;
+ top: 24.6875rem; /* Position the vector below the subtitle */
+ transform: translateY(-3.875rem);
+ overflow: visible;
 }
+
+
 
 
 .kit-flower,
 .kit-flower * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
+
 .kit-flower {
-  height: 32rem;
-  position: absolute;
-  background: transparent;
-  top: 3rem;
+ height: 32rem;
+ position: absolute;
+ background: transparent;
+ top: 18.25rem;
+ left: 16.5rem;
 }
 .group-24 {
-  height: auto;
-  position: absolute;
-  left: 15rem;
-  top: 15rem;
-  overflow:hidden;
+ height: auto;
+ position: absolute;
+ left:10rem;
+ top: 6rem;
+ overflow:hidden;
 }
+
+
 
 
 .jeffery,
 .jeffery * {
-  box-sizing: border-box;
+ box-sizing: border-box;
 }
 .jeffery {
-  height: 22rem;
-  position: absolute;
-  object-fit: cover;
-  background: transparent;
-  top: 23rem;
-  left:6rem
+ height: 22rem;
+ position: absolute;
+ object-fit: cover;
+ background: transparent;
+ top: 23rem;
+ left:6rem
 }
 
+
 .crown{
-	box-sizing: border-box;
+  box-sizing: border-box;
+
 
 }
 .crown
 {
-	width:10rem;
-	height:10rem;
-	position:absolute;
-   background:transparent;
-	object-fit: scale-down;
-  top:19rem;
-  left:8rem;
+  width:10rem;
+  height:10rem;
+  position:absolute;
+  background:transparent;
+  object-fit: scale-down;
+ top:19rem;
+ left:8rem;
 }
