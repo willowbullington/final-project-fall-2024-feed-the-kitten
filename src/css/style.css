@@ -1,23 +1,36 @@
 /* General Reset for Box Sizing */
-.welcome-page,
-.welcome-page * {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+/* Background Image Styling */
+.paper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -9; /* Ensure it's behind all other content */
+  overflow: hidden;
+}
+
+.paper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Prevent stretching */
 }
 
 /* Welcome Page Styling */
 .welcome-page {
   height: 52rem;
-  position:absolute;
+  position: relative; /* Ensure stacking context */
   box-shadow: inset 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   overflow: hidden;
   backdrop-filter: blur(0.125rem);
 }
 
-/* Group Element Styling */
-.group-6 {
-  position: absolute;
-  inset: 0;
-}
 
 /* Text and Typography Styling */
 .text {
@@ -31,7 +44,6 @@
   top: 7.1875rem;
 }
 
-/* Welcome Title Styling */
 .welcome-to-feed-the-kittens {
   color: #000;
   text-align: right;
@@ -45,7 +57,6 @@
   height: 18.4375rem;
 }
 
-/* Subtitle Styling */
 .click-the-button-to-start {
   color: #000;
   text-align: left;
@@ -58,66 +69,62 @@
 }
 
 /* Vector Image Styling */
-/* Vector Image Styling */
-/* Vector Image Styling */
-.vector {
-	width: 36.05%;
-	height: 54.45%;
-	position: absolute;
-	right: 55.34%;
-	left: 58%;
-	bottom:55%;
-	top: 24.6875rem;  /* Position the vector below the subtitle */
-	transform: translateY(-3.875rem);
-	overflow: visible;
- }
-
-
-
-/* Screenshot Styling */
-div { background-image: url("");}
-.jeffery {
-  width: 26.4375rem;
-  height: 27.5625rem;
-  position:relative;
-  left: 2.0625rem;
-  top: 30.1875rem;
-  object-fit: cover;
+.start-arrow {
+  width: 36.05%;
+  height: 54.45%;
+  position: absolute;
+  right: 55.34%;
+  left: 58%;
+  bottom: 55%;
+  top: 24.6875rem; /* Position the vector below the subtitle */
+  transform: translateY(-3.875rem);
+  overflow: visible;
 }
 
-/* Kitten Image Styling */
-.kiten  {
-	width: 486px;
-	height: 642px;
-	flex-shrink: 0;
-	background: url(<path-to-image>) lightgray 50% / cover no-repeat; 
-}
 
-/* Group Styling */
-.crown,
-.crown * {
+.kit-flower,
+.kit-flower * {
   box-sizing: border-box;
 }
-.vector2 {
-  width: 10.5rem;
-  height: .875rem;
-  position: relative;
-  right: 1.81%;
-  left: 0.78%;
-  bottom: 10.69%;
-  top: 20.36%;
-  overflow: visible;
-
+.kit-flower {
+  height: 32rem;
+  position: absolute;
+  background: transparent;
+  top: 3rem;
+}
+.group-24 {
+  height: auto;
+  position: absolute;
+  left: 15rem;
+  top: 15rem;
+  overflow:hidden;
 }
 
-/* Group 21 Styling */
-.group-21 {
-  width: 95.41%;
-  height: 50.95%;
+
+.jeffery,
+.jeffery * {
+  box-sizing: border-box;
+}
+.jeffery {
+  height: 22rem;
   position: absolute;
-  right: 1.81%;
-  left: 0.78%;
-  bottom: 42.69%;
-  top: 20.36%;
-  overflow: invisible;
+  object-fit: cover;
+  background: transparent;
+  top: 23rem;
+  left:6rem
+}
+
+.crown{
+	box-sizing: border-box;
+
+}
+.crown
+{
+	width:10rem;
+	height:10rem;
+	position:absolute;
+   background:transparent;
+	object-fit: scale-down;
+  top:19rem;
+  left:8rem;
 }
