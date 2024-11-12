@@ -93,6 +93,17 @@
  transform: translateY(-3.875rem);
  overflow: visible;
 }
+.start-arrow {
+	width: 36.05%;
+	height: 54.45%;
+	position: absolute;
+	right: 55.34%;
+	left: 58%;
+	bottom: 55%;
+	top: 24.6875rem; /* Position the vector below the subtitle */
+	transform: translateY(-3.875rem);
+	overflow: visible;
+  }
 
 
 
