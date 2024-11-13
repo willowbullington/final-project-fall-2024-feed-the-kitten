@@ -31,13 +31,13 @@
  position: absolute;
  object-fit: cover;
  background: transparent;
- 
+
  top: 15rem;
  left:25rem
 }
 
 /* Vector Image Styling */
-.start-arrow {
+.slantarrow {
 	width: 36.05%;
 	height: 54.45%;
 	position: absolute;
@@ -48,7 +48,7 @@
 	transform: translateY(-3.875rem);
 	overflow: visible;
   }
-  .start-arrow {
+  .slantarrow { 
 	  width: 36.05%;
 	  height: 54.45%;
 	  position: absolute;
