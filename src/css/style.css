@@ -93,42 +93,41 @@
  transform: translateY(-3.875rem);
  overflow: visible;
 }
-.start-arrow {
-	width: 36.05%;
-	height: 54.45%;
-	position: absolute;
-	right: 55.34%;
-	left: 58%;
-	bottom: 55%;
-	top: 24.6875rem; /* Position the vector below the subtitle */
-	transform: translateY(-3.875rem);
-	overflow: visible;
-  }
 
 
-
-
-.kit-flower,
-.kit-flower * {
+.kit * {
  box-sizing: border-box;
 }
-
-.kit-flower {
- height: 32rem;
+.kit {
+ height: 35rem;
  position: absolute;
  background: transparent;
- top: 18.25rem;
- left: 16.5rem;
+ top: 3rem;
 }
-.group-24 {
- height: auto;
+.kit {
+ height: 40rem;
  position: absolute;
- left:10rem;
- top: 6rem;
+ left: 15rem;
+ top: 18rem;
  overflow:hidden;
 }
 
 
+.flower,
+.flower * {
+  	box-sizing: border-box;
+ 	 width: 92.497px;
+	height: 101px;
+	flex-shrink: 0;
+}
+.flower
+{
+
+	height:10rem;
+	position:absolute;
+	background:transparent;
+
+ }
 
 
 .jeffery,
@@ -145,10 +144,12 @@
 }
 
 
+
 .crown{
   box-sizing: border-box;
-
-
+  width: 92.497px;
+height: 101px;
+flex-shrink: 0;
 }
 .crown
 {

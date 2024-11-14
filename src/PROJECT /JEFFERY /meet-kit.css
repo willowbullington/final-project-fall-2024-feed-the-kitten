@@ -24,6 +24,20 @@
  object-fit: cover; /* Prevent stretching */
 }
 
+.slant
+.slant
+{
+  box-sizing: border-box;}
+.slant
+ {
+  width: 25.06rem;
+  height: 11.66375rem;
+  position: absolute;
+  overflow: hidden;
+  top: 35rem;
+  left: 50rem
+}
+
 .text {
 	color: #000;
 	text-align: left;
@@ -47,25 +61,5 @@
 	left:25rem
   }
 /* Vector Image Styling */
-.start-arrow {
-	width: 36.05%;
-	height: 54.45%;
-	position: absolute;
-	right: 55.34%;
-	left: 58%;
-	bottom: 55%;
-	top: 24.6875rem; /* Position the vector below the subtitle */
-	transform: translateY(-3.875rem);
-	overflow: visible;
-  }
-  .start-arrow {
-	  width: 36.05%;
-	  height: 54.45%;
-	  position: absolute;
-	  right: 55.34%;
-	  left: 58%;
-	  bottom: 55%;
-	  top: 24.6875rem; /* Position the vector below the subtitle */
-	  transform: translateY(-3.875rem);
-	  overflow: visible;
-	 }
+
+
