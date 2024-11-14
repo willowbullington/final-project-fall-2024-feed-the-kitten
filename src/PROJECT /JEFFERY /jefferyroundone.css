@@ -38,7 +38,7 @@
 
 
 .correctfish,
-.correctfish * {
+.correctfish {
   box-sizing: border-box;
 }
 .correctfish {
@@ -46,9 +46,6 @@
   height: 6.0625rem;
   position: absolute;
   object-fit: cover;
-  background: transparent;
   left: 60rem;
   top: 25rem;
 }
-
-
