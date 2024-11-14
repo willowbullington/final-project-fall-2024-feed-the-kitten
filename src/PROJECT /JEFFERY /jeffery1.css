@@ -35,20 +35,17 @@
  top: 15rem;
  left:25rem
 }
-.jeff-smile,
-.jeff-smile * {
+
+
+.fish-one,
+.fish-one * {
   box-sizing: border-box;
 }
-.jeff-smile {
-  height: 26.625rem;
-  position: relative;
-  background: transparent;
-  text-decoration-skip-ink: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+.fish-one {
+  width: 8.75rem;
+  height: 6.0625rem;
+  position: absolute;
   object-fit: cover;
-  top: 15rem;
-  left: 25rem;
-flex-shrink: 0;
+  left: 60rem;
+  top: 25rem;
 }
-
-
-
