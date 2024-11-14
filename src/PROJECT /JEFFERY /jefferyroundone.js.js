@@ -1,5 +1,5 @@
 // Select the correct-fish image
-const correctfish = document.getElementById("f");
+const correctfish = document.getElementById("correctfish");
 
 // Add styles to make the image look clickable
 correctFish.style.cursor = "pointer";

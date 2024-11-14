@@ -22,15 +22,17 @@
  object-fit: cover; /* Prevent stretching */
 }
 
-.jeffery-smile,
-.jeffery-smile * {
-  box-sizing: border-box;
-  width: 467px;
-	height: 543.061px;
-	flex-shrink: 0;
+.jeffery,
+.jeffery * {
+ box-sizing: border-box;
 }
-.jeffery-smile {
-  height: auto;
-  position: relative;
-  overflow: visible;
-} 
+.jeffery {
+ height: 30rem;
+ position: absolute;
+ object-fit: cover;
+ background: transparent;
+
+ top: 15rem;
+ left:25rem
+}
+
