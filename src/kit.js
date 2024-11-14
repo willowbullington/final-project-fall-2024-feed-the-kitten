@@ -6,5 +6,5 @@ slantarrow.style.cursor = "pointer";
 
 // Add an event listener to navigate to page3.html when the pink heart is clicked
 slantarrow;style.addEventListener("click", () => {
-    window.location.href = "page5.html";
+    window.location.href = "page6.html";
 });
