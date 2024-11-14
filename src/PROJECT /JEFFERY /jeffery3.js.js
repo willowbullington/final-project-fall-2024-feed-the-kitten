@@ -1,5 +1,5 @@
 // Select the slant arrow image inside the button
-const slantArrow = document.querySelector(".slant-arrow");
+const slantArrow = document.querySelector(".slantarrow");
 
 // Add styles to make the image look clickable
 slantArrow.style.cursor = "pointer";
@@ -8,3 +8,4 @@ slantArrow.style.cursor = "pointer";
 slantArrow.addEventListener("click", () => {
     window.location.href = "page7.html";
 });
+
