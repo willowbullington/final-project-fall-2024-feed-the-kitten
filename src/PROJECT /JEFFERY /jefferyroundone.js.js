@@ -2,9 +2,9 @@
 const correctfish = document.getElementById("correctfish");
 
 // Add styles to make the image look clickable
-correctFish.style.cursor = "pointer";
+correctfish.style.cursor = "pointer";
 
 // Add an event listener to navigate to correct.html when the image is clicked
-correctFish.addEventListener("click", () => {
+correctfish.addEventListener("click", () => {
     window.location.href = "correct.html";
 });
