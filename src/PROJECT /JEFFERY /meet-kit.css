@@ -24,14 +24,15 @@
  object-fit: cover; /* Prevent stretching */
 }
 
-.slantarrow
-.slantarrow
+.slant-arrow
+.slant-arrow
 {
   box-sizing: border-box;}
-.slantarrow
+.slant-arrow
  {
   width: 25.06rem;
   height: 11.66375rem;
+  background: transparent;
   position: absolute;
   overflow: hidden;
   top: 35rem;

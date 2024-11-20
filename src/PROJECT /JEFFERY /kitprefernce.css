@@ -23,12 +23,12 @@
 }
 
 /* Styling for .slantarrow */
-.slantarrow,
-.slantarrow * {
+.slant-arrow,
+.slant-arrow * {
   box-sizing: border-box;
 }
 
-.slantarrow {
+.slant-arrow {
   width: 25.06rem;
   height: 11.66375rem;
   position: absolute;
