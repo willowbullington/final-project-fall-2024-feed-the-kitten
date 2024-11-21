@@ -6,5 +6,5 @@ bluefish.style.cursor = "pointer";
 
 // Add an event listener to navigate to correct.html when the image is clicked
 bluefish.addEventListener("click", () => {
-    window.location.href = "page61.html";
+    window.location.href = "page91.html";
 });
