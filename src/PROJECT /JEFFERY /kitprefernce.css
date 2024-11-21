@@ -36,6 +36,16 @@
   top: 25rem;
   left: 45rem;
 }
+.text {
+	color: #000;
+	text-align: left;
+	font-family: 'Are You Serious', sans-serif;
+	font-size: 4rem;
+	font-weight: 400;
+	position: absolute;
+	left: 16.1875rem;
+	top: 7.1875rem;
+  }
 
 /* Styling for .kit */
 .kit,
