@@ -8,3 +8,14 @@ bluefish.style.cursor = "pointer";
 bluefish.addEventListener("click", () => {
     window.location.href = "page91.html";
 });
+
+// Select the incorrect-fish image
+const incorrect = document.getElementById("incorrect");
+
+// Add styles to make the image look clickable
+incorrect.style.cursor = "pointer"; // Fixed this line
+
+// Add an event listener to navigate to correct.html when the image is clicked
+incorrect.addEventListener("click", () => {
+    window.location.href = "page61.html";
+});

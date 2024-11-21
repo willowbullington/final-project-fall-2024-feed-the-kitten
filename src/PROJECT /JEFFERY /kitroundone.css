@@ -51,3 +51,36 @@
   left: 60rem;
   top: 25rem;
 }
+
+.incorrect,
+.incorrect * {
+  box-sizing: border-box;
+}
+.incorrect {
+  position: relative;
+}
+.green-lettuce-1 {
+  width: 13.5625rem;
+  height: 17.9375rem;
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+  object-fit: cover;
+}
+.grapes-1 {
+  width: 12.125rem;
+  height: 16.0625rem;
+  position: absolute;
+  left: 3.125rem;
+  top: 13.9375rem;
+  object-fit: cover;
+}
+.busell-of-fruit-1 {
+  width: 21.0625rem;
+  height: 27.8125rem;
+  position: absolute;
+  left: 8.4375rem;
+  top: 0.9375rem;
+  object-fit: cover;
+}
+
