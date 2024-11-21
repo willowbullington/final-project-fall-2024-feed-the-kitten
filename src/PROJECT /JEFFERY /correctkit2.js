@@ -1,6 +1,5 @@
 // Redirect to page10.html after 2 seconds
 setTimeout(function() {
-	window.location.href = "page91.html";
+	window.location.href = "page121.html";
 }, 2000); // Adjust the time (in milliseconds) as needed
-
 

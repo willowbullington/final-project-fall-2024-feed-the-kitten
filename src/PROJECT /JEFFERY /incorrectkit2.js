@@ -2,5 +2,4 @@
 setTimeout(function() {
 	window.location.href = "page91.html";
 }, 2000); // Adjust the time (in milliseconds) as needed
-
-
+ 
