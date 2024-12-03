@@ -37,35 +37,55 @@
   top: 25rem;
   left: 45rem
 }
-
-
 .jeffery,
 .jeffery * {
- box-sizing: border-box;
-}
-.jeffery {
- height: 30rem;
- position: absolute;
- object-fit: cover;
- background: transparent;
-
- top: 10rem;
- left:18rem
-}
-.jeff-smile,
-.jeff-smile * {
   box-sizing: border-box;
 }
-.jeff-smile {
-  height: 26.625rem;
+.jeffery {
+  height: 24.0625rem;
   position: relative;
-  background: transparent;
-  text-decoration-skip-ink: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
   object-fit: cover;
-  top: 15rem;
-  left: 25rem;
-flex-shrink: 0;
+  width: 25rem;
+  top: 17rem;
+  left: 5rem;
+	height: 25rem;
 }
 
 
+.caption-2,
+.caption-2 * {
+  box-sizing: border-box;
+  width: 32rem;
+}
 
+.caption-2 {
+ font-family: "Are You Serious";
+ font-size: 4rem;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ line-break:auto;
+ position: absolute;
+ text-align: right;
+ top: 8rem;
+ right: 3.5rem;
+
+}
+.correctfish,
+.correctfish * {
+  box-sizing: border-box;
+}
+.correctfish
+{
+	width: 10rem;
+	height: 6.0625rem;
+	flex-shrink: 0;
+	width: 15rem;
+	height: 10rem;
+	position: relative;
+	top: 12rem;
+	left: 35rem;
+	object-fit: cover;
+
+
+}
