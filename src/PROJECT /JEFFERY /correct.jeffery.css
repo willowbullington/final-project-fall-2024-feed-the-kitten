@@ -31,11 +31,11 @@
 }
 .jeff-smile {
   height: 26.625rem;
-  position: relative;
+  position: absolute;
   object-fit: cover;
 flex-shrink: 0;
-left: 3rem;
-top: 1rem;
+left: 15rem;
+top: 10rem;
 width: 26.75rem;
 height: 27.5625rem;
 flex-shrink: 0;
@@ -59,7 +59,7 @@ flex-shrink: 0;
   bottom:20rem;
   font-size: 9rem;
 }
-.good-job {
+.great-job {
 	font-family: "Are You Serious", serif;
 	font-weight: 400;
 	font-style: normal;
@@ -69,5 +69,3 @@ flex-shrink: 0;
   bottom:12rem;
   font-size: 9rem;
 }
-
-
