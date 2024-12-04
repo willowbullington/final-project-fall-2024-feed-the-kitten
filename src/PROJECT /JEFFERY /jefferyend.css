@@ -28,9 +28,33 @@
   width: 467px;
 	height: 543.061px;
 	flex-shrink: 0;
+	top: 4rem;
+	left: 2rem;
 }
 .jeffery-smile {
   height: auto;
   position: relative;
   overflow: visible;
+}
+.star-2,
+.star-2 * {
+  box-sizing: border-box;
+}
+.star-2 {
+  height: 15rem;
+  position: relative;
+  overflow: visible;
+  top: 1rem;
+left: 5rem;
+}
+
+
+.star-1
+{
+	height: 20rem;
+	position: relative;
+	overflow: visible;
+	top: 2rem;
+	left: 4rem;
+
 }
