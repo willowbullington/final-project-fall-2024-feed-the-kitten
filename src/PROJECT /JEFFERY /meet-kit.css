@@ -23,6 +23,18 @@
  height: 100%;
  object-fit: cover; /* Prevent stretching */
 }
+.kit,
+.kit * {
+  box-sizing: border-box;
+}
+.kit {
+  height: 42.4375rem;
+  position: relative;
+background: transparent;
+  object-fit: cover;
+  top: 1rem;
+  left: 2rem
+}
 
 .slant-arrow
 .slant-arrow
@@ -51,24 +63,28 @@
 	font-family: "Are You Serious", serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 6rem;
   position: absolute;
-  left: 0rem;
-  top: 0rem;
+  right: 1rem;
+  bottom: 55rem;
 }
 .meetkit3 {
 	font-family: "Are You Serious", serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 5rem;
   position: absolute;
-  left: 0.8125rem;
-  top: 4.375rem;
+right: 1rem;
+bottom: 50rem;
+
 }
 .kitcaption  {
 	font-family: "Are You Serious", serif;
 	font-weight: 400;
 	font-style: normal;
-  left: 38.0625rem;
-  top: 12.875rem;
-  width: 20.0625rem;
-  height: 13.3125rem;
+	font-size: 3rem;
+ right: 1rem;
+ bottom: 45rem;
+position:absolute
 }
+

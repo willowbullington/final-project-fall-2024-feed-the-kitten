@@ -23,58 +23,47 @@
 }
 
 /* Styling for .slantarrow */
-.slant-arrow,
-.slant-arrow * {
+.slantarrow,
+.slantarrow * {
   box-sizing: border-box;
 }
 
-.slant-arrow {
-  width: 25.06rem;
-  height: 11.66375rem;
+.slantarrow {
+  width: 20.06rem;
+  height: 6.66375rem;
   position: absolute;
   overflow: hidden;
-  top: 25rem;
-  left: 45rem;
+  top: 35rem;
+  left: 65rem;
 }
-.text {
-	color: #000;
-	text-align: left;
-	font-family: 'Are You Serious', sans-serif;
-	font-size: 4rem;
-	font-weight: 400;
-	position: absolute;
-	left: 16.1875rem;
-	top: 7.1875rem;
-  }
 
 /* Styling for .kit */
+
 .kit,
 .kit * {
   box-sizing: border-box;
 }
-
 .kit {
-  height: 30rem;
-  position: absolute;
+  height: 47.3125rem;
+  position: relative;
   object-fit: cover;
   background: transparent;
-  top: 10rem;
-  left: 18rem;
+  left: 25rem;
+  top: 2rem;
 }
 
-/* Styling for .kit-smile */
-.kit-smile,
-.kit-smile * {
+
+
+.it-s-time-for-dinner-don-t-forget-she-is-picky,
+.it-s-time-for-dinner-don-t-forget-she-is-picky * {
   box-sizing: border-box;
 }
-
-.kit-smile {
-  height: 26.625rem;
+.it-s-time-for-dinner-don-t-forget-she-is-picky {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3rem;
   position: relative;
-  background: transparent;
-  text-decoration-skip-ink: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
-  object-fit: cover;
-  top: 15rem;
-  left: 25rem;
-  flex-shrink: 0;
+  height: 11.5rem;
+  bottom: 45rem;
 }
