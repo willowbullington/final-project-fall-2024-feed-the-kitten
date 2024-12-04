@@ -36,11 +36,11 @@ object-fit: cover; /* Prevent stretching */
  }
 
 
- .caption,
- .caption * {
+ .div,
+ .div * {
 	box-sizing: border-box;
  }
- .caption {
+ .caption-2 {
 	position: relative;
  }
  .caption-2 {
@@ -55,7 +55,7 @@ object-fit: cover; /* Prevent stretching */
 	width: 16.75rem;
 	height: 10.875rem;
  }
- .caption2 {
+ .caption-2 {
 	color: #000000;
 	text-align: left;
 	font-family: "AreYouSerious-Regular", sans-serif;
