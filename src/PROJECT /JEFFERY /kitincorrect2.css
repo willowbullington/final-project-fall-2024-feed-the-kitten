@@ -23,16 +23,28 @@
 }
 
 /* Styling for .kit */
-.kit,
-.kit * {
+.sadkit,
+.sadkit * {
   box-sizing: border-box;
 }
 
-.kit {
+.sadkit {
   height: 30rem;
   position: absolute;
   object-fit: cover;
   background: transparent;
   top: 15rem;
   left: 25rem;
+}
+.incorrect-let-s-try-again,
+.incorrect-let-s-try-again * {
+  box-sizing: border-box;
+}
+.incorrect-let-s-try-again {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem;
+  position: absolute;
+  top: 2rem;
 }
