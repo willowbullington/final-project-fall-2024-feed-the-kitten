@@ -34,3 +34,17 @@
   position: relative;
   overflow: visible;
 }
+.correct-jeffery-is-full,
+.correct-jeffery-is-full * {
+  box-sizing: border-box;
+}
+.correct-jeffery-is-full
+{
+
+		font-family: "Are You Serious", serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 4rem;
+
+
+}

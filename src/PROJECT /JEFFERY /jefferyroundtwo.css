@@ -49,3 +49,16 @@
   left: 60rem;
   top: 25rem;
 }
+
+.round-two,
+.round-two * {
+  box-sizing: border-box;
+}
+.round-two {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 5rem;
+	top: 2rem;
+	left: 3rem
+}
