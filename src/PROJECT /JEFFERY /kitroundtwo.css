@@ -66,8 +66,9 @@
 }
 
 
-.round-one,
-.round-one * {
+
+.round-two,
+.round-two * {
   box-sizing: border-box;
 	font-family: "Are You Serious", serif;
 	font-weight: 400;
@@ -75,6 +76,4 @@
 	font-size: 5rem;
   position: absolute;
   top: 2rem;
-
-}
-
+} 

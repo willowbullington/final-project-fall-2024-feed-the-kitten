@@ -1,11 +1,48 @@
-/* General Reset for Box Sizing */
-*,
-*::before,
-*::after {
- box-sizing: border-box;
+.are-you-serious-regular {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+ .group-26,
+ .group-26 * {
+	box-sizing: border-box;
+ }
+ .group-26 {
+	position: relative;
+ }
+ .meet {
+	color: #000;
+	background: transparent;
+	font-family: "Are You Serious";
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 517px;
+	height: 150px;
+	flex-shrink: 0;
+	position: absolute;
+  left: 0rem;
+  top: 0rem;
+  width: 15.875rem;
+  height: 9.8125rem;
+ }
+ .h-1 {
+	color: #000;
+	font-family: "Are You Serious";
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	width: 517px;
+	height: 157px;
+	flex-shrink: 0;
+	position: absolute;
+  left: 3.5625rem;
+  top: 5rem;
+  width: 32.3125rem;
+  height: 9.8125rem;
 }
-
-
 /* Background Image Styling */
 .paper{
  position: absolute;
@@ -30,42 +67,43 @@
   box-sizing: border-box;}
 .slant-arrow
  {
-  width: 25.06rem;
-  height: 11.66375rem;
+  height: 10.66375rem;
   position: absolute;
   overflow: hidden;
-  top: 25rem;
-  left: 45rem
+  top: 35rem;
+  left: 60rem
 }
-
-
 .jeffery,
 .jeffery * {
- box-sizing: border-box;
-}
-.jeffery {
- height: 30rem;
- position: absolute;
- object-fit: cover;
- background: transparent;
-
- top: 10rem;
- left:18rem
-}
-.jeff-smile,
-.jeff-smile * {
   box-sizing: border-box;
 }
-.jeff-smile {
-  height: 26.625rem;
+.jeffery {
+	background: transparent;
+  height: 35.375rem;
   position: relative;
-  background: transparent;
-  text-decoration-skip-ink: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+	box-shadow: #000000 1rem;
   object-fit: cover;
-  top: 15rem;
-  left: 25rem;
-flex-shrink: 0;
-}
+  left:25em;
+  top: 10rem;}
 
+
+  .caption,
+  .caption * {
+	 box-sizing: border-box;
+  }
+
+.caption {
+	font-size: 2.25rem;
+	font-weight: 400;
+	position: relative;
+	color: #000;
+	font-family: "Are You Serious";
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+  position:relative
+
+}
 
 

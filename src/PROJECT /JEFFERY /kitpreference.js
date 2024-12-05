@@ -1,10 +1,10 @@
 // Select the correct-fish image
-const bluefish = document.getElementById("bluefish");
+const slantarrow= document.getElementById("slantarrow");
 
 // Add styles to make the image look clickable
-bluefish.style.cursor = "pointer";
+slantarrow.style.cursor = "pointer";
 
 // Add an event listener to navigate to correct.html when the image is clicked
-bluefish.addEventListener("click", () => {
+slantarrow.addEventListener("click", () => {
     window.location.href = "page61.html";
 });

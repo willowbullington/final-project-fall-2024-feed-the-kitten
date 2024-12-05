@@ -23,6 +23,18 @@
  height: 100%;
  object-fit: cover; /* Prevent stretching */
 }
+.kit,
+.kit * {
+  box-sizing: border-box;
+}
+.kit {
+  height: 42.4375rem;
+  position: relative;
+background: transparent;
+  object-fit: cover;
+  top: 1rem;
+  left: 2rem
+}
 
 .slant-arrow
 .slant-arrow
@@ -38,60 +50,41 @@
   top: 35rem;
   left: 50rem
 }
-.are-you-serious-regular {
+
+.meetkit,
+.meetkit * {
+  box-sizing: border-box;
+}
+.meetkit {
+  height: 26.1875rem;
+  position: relative;
+}
+.meetkit2 {
 	font-family: "Are You Serious", serif;
 	font-weight: 400;
 	font-style: normal;
- }
- .text {
-	color: #000;
-	text-align: left;
-	font-family: 'Are You Serious', sans-serif;
-	font-size: 4rem;
-	font-weight: 400;
-	position: absolute;
-	left: 16.1875rem;
-	top: 7.1875rem;
-  }
-
-
-
- .group-25,
- .group-25 * {
-	box-sizing: border-box;
- }
- .group-25 {
-	position: relative;
- }
- .meetkit {
-	color: #000000;
-	text-align: right;
-	font-family: "AreYouSerious-Regular", sans-serif;
-	font-size: 4rem;
-	font-weight: 400;
-	position: absolute;
-	left: 0rem;
-	top: 0rem;
- }
- .meetkit2 {
-	color: #000000;
-	text-align: right;
-	font-family: "AreYouSerious-Regular", sans-serif;
 	font-size: 6rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 55rem;
+}
+.meetkit3 {
+	font-family: "Are You Serious", serif;
 	font-weight: 400;
-	position: absolute;
-	left: 0.8125rem;
-	top: 4.375rem;
- }
- .kitcaption {
-	color: #000000;
-	text-align: right;
-	font-family: "AnnieUseYourTelescope-Regular", sans-serif;
+	font-style: normal;
+	font-size: 5rem;
+  position: absolute;
+right: 1rem;
+bottom: 50rem;
+
+}
+.kitcaption  {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 3rem;
-	font-weight: 400;
-	position: absolute;
-	left: 38.0625rem;
-	top: 12.875rem;
-	width: 20.0625rem;
-	height: 13.3125rem;
- }
+ right: 1rem;
+ bottom: 45rem;
+position:absolute
+}
+

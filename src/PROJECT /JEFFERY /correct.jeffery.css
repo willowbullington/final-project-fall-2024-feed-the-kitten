@@ -1,12 +1,15 @@
-/* General Reset for Box Sizing */
+.are-you-serious-regular {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
 *,
 *::before,
 *::after {
  box-sizing: border-box;
 }
 
-
-/* Background Image Styling */
 .paper{
  position: absolute;
  top: 0;
@@ -22,15 +25,47 @@
  object-fit: cover; /* Prevent stretching */
 }
 
-.jeffery-smile,
-.jeffery-smile * {
+.jeff-smile,
+.jeff-smile * {
   box-sizing: border-box;
-  width: 467px;
-	height: 543.061px;
-	flex-shrink: 0;
 }
-.jeffery-smile {
-  height: auto;
+.jeff-smile {
+  height: 26.625rem;
+  position: absolute;
+  object-fit: cover;
+flex-shrink: 0;
+left: 15rem;
+top: 10rem;
+width: 26.75rem;
+height: 27.5625rem;
+flex-shrink: 0;
+}
+
+.group-28,
+.group-28 * {
+  box-sizing: border-box;
+}
+.group-28 {
+  height: 11.9375rem;
   position: relative;
-  overflow: visible;
-} 
+}
+.correct {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+  position: absolute;
+  text-align: left;
+  left: 40rem;
+  bottom:20rem;
+  font-size: 9rem;
+}
+.great-job {
+	font-family: "Are You Serious", serif;
+	font-weight: 400;
+	font-style: normal;
+  position: absolute;
+  text-align: left;
+  left: 40rem;
+  bottom:12rem;
+  font-size: 9rem;
+}
